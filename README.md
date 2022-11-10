@@ -9,6 +9,8 @@
 
     Tous le projet (informations, API, ... ) est présent sur github à cette addresse : https://github.com/DemonBlueFox/WebService
 
-    Nous allons devélopper différentes API afin de repondre à tous ces besoins. Nous utiliserons également des API open source pour notament traduire le texte envoyer par l'utilisateur ou encore faire la transcription orale du texte.
+    Nous allons devélopper une API pour communiquer avec l'utilisateur. Nous utiliserons également des API open source pour notament traduire le texte envoyer par l'utilisateur ou encore faire la transcription orale du texte.
 
     ![Archi](https://github.com/DemonBlueFox/WebService/blob/main/Architecture_des_API.png)
+
+Pour l'API de traduction, nous utiliserons [LibreTranslate](https://github.com/LibreTranslate/LibreTranslate). Cette API permet à la fois de detecter la langue d'un texte mais aussi de traduire ce texte. 17 langues sont disponibles.
