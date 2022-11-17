@@ -9,7 +9,7 @@
 
     3. [API Utilisateur](#Utilisateur)
 
-    4. [API Traduction](#Taduction)
+    4. [API Traduction](#Traduction)
 
     5. [API Synthèse vocale](#Vocale)
 
