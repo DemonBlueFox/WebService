@@ -3,20 +3,20 @@
 
 * ## Sommaire
 
-    * [Besoins Fonctionnels]("Besoins Fonctionnels")
-    * [Besoins techniques]("Besoins techniques")
+    * [Besoins Fonctionnels](Fonctionnels)
+    * [Besoins techniques](Techniques)
     * API utilisées
 <div style="page-break-after: always; visibility: hidden"> 
 </div>
 
-<a name="Besoins Fonctionnels"></a>
+<a name="Fonctionnels"></a>
 
 * ## Besoins Fonctionnels (client)
 
     Un utilisateur va taper un texte (1000 caractères max) dans une langue de son choix. Provoquer : l'Interrogation d'une api pour connaitre la langue tapée puis une api de traduction qui nous renvoie le texte dans la langue que l'on souhaite et avoir au niveau de l'utilisateur une restitution du langage traduit. 
     Il faut aussi avoir la possibilité de le faire lire par une autre api qui va le convertir en fichier audio
 
-<a name="Besoins techniques"></a>
+<a name="Techniques"></a>
 
 * ## Besoins techniques
 
