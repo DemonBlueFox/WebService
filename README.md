@@ -3,9 +3,18 @@
 
 * ## Sommaire
 
-    * [Besoins Fonctionnels](#Fonctionnels)
-    * [Besoins techniques](#Techniques)
-    * API utilisées
+    1. [Besoins Fonctionnels](#Fonctionnels)
+
+    2. [Besoins techniques](#Techniques)
+
+    3. [API Utilisateur](#Utilisateur)
+
+    4. [API Traduction](#Taduction)
+
+    5. [API Synthèse vocale](#Vocale)
+
+    6. [Front](#Front)
+
 <div style="page-break-after: always; visibility: hidden"> 
 </div>
 
@@ -28,10 +37,14 @@
 <div style="page-break-after: always; visibility: hidden"> 
 </div>
 
+<a name="Traduction"></a>
+
 * ### API de traduction
     Pour l'API de traduction, nous utiliserons [LibreTranslate](https://github.com/LibreTranslate/LibreTranslate). Cette API permet à la fois de detecter la langue d'un texte mais aussi de traduire ce texte. 17 langues sont disponibles.
 
     Une requête HTTP POST pour mettre le texte ainsi que la langue dans laquelle on veut traduire et on récupérer le texte traduit.
+
+<a name="Vocale"></a>
 
 * ### API de Synthèse Vocale 
     <img src="logo_voicerss.png" alt="logo_voicerss" width="100"/>
@@ -39,6 +52,8 @@
     Pour l'API de Synthèse Vocale, l'API [Text-To-Speech](https://www.voicerss.org/api/) par Voicerss est une très bonne solution. Elle permet la retranscription d'un texte à partir d'une requête POST ou GET. 49 langues sont disponibles.
 
     Une requête HTTTP POST 
+
+<a name="Front"></a>
 
 * ### Front
     <img src="VueJS.png" alt="VueJS" width="100"/>
