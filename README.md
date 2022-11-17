@@ -7,7 +7,6 @@
     * [Besoins techniques]("Besoins techniques")
     * API utilisées
 <div style="page-break-after: always; visibility: hidden"> 
-\pagebreak 
 </div>
 
 <a name="Besoins Fonctionnels"></a>
@@ -27,7 +26,6 @@
 
     ![](Architecture_des_API.png)
 <div style="page-break-after: always; visibility: hidden"> 
-\pagebreak 
 </div>
 
 * ### API de traduction
