@@ -41,7 +41,7 @@
 
 * ### API Utilisateur
 
-Cette API est développée par nos soins et permet de recupérer les demandent de l'utilisateur sur le front à travers les requêtes HTTP POST et GET. Celle-ci va ensuite utiliser les différentes API de détection de langue, de traduction et de synthèse vocale pour traduire et renvoyer le texte traduit + le fichier audio à l'utilisateur.
+    Cette API est développée par nos soins et permet de recupérer les demandent de l'utilisateur sur le front à travers les requêtes HTTP POST et GET. Celle-ci va ensuite utiliser les différentes API de détection de langue, de traduction et de synthèse vocale pour traduire et renvoyer le texte traduit + le fichier audio à l'utilisateur.
 
 <a name="Traduction"></a>
 
