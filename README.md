@@ -3,8 +3,8 @@
 
 * ## Sommaire
 
-    * [Besoins Fonctionnels](Fonctionnels)
-    * [Besoins techniques](Techniques)
+    * [Besoins Fonctionnels](#Fonctionnels)
+    * [Besoins techniques](#Techniques)
     * API utilisées
 <div style="page-break-after: always; visibility: hidden"> 
 </div>
