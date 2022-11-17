@@ -16,5 +16,12 @@
 * ### API de traduction
     Pour l'API de traduction, nous utiliserons [LibreTranslate](https://github.com/LibreTranslate/LibreTranslate). Cette API permet à la fois de detecter la langue d'un texte mais aussi de traduire ce texte. 17 langues sont disponibles.
 
-* ### API de Synthèse Vocale
-    Pour l'API de Synthèse Vocale, l'API [Text-To-Speech](https://www.voicerss.org/api/) par Voicerss est une très bonne solution. Elle permet la retranscription d'un texte à partir d'une requête POST ou GET. 49 langues sont disponibles
+* ### API de Synthèse Vocale 
+    <img src="logo_voicerss.png" alt="logo_voicerss" width="100"/>
+
+    Pour l'API de Synthèse Vocale, l'API [Text-To-Speech](https://www.voicerss.org/api/) par Voicerss est une très bonne solution. Elle permet la retranscription d'un texte à partir d'une requête POST ou GET. 49 langues sont disponibles. 
+
+* ### Front
+    <img src="VueJS.png" alt="VueJS" width="100"/>
+
+    L'utilisateur aura lui accès à une interface simple. Celle-ci est développé avec vue.js qui permet de faire une application web monopage simple et efficace.
