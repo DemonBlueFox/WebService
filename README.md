@@ -46,7 +46,7 @@
 <a name="Traduction"></a>
 
 * ### API de traduction
-    Pour l'API de traduction, nous utiliserons GoogleTranslate. Pour l'utiliser, il faut d'abord que vous creeiez votre compte et recuperiez une clé API que vous passez dans la requête GET avec le texte à traduire.
+    Pour l'API de traduction, nous utiliserons GoogleTranslate. Pour l'utiliser, il faut d'abord que vous alliez cree votre compte et recuperiez une clé API que vous passez dans la requête GET avec le texte à traduire.
 
 <a name="Vocale"></a>
 
