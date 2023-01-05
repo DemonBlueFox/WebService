@@ -1,30 +1,31 @@
-from flask import *
+# Ne plus utiliser a supprimer
+
+from flask import Flask, request
 import requests
 
 app = Flask(__name__)
 
-@app.route("/")
+@app.route('/translate', methods=['POST'])
+def translate():
+    # Récupérez les paramètres de la demande
+    text = request.form.get('text')
+    source_language = request.form.get('source_language')
+    target_language = request.form.get('target_language')
 
-def message():
+    # Envoi de la demande POST à l'API de traduction
+    api_url = "https://libretranslate.com/translate"
+    response = requests.post(api_url, data={
+        "text": text,
+        "source_language": source_language,
+        "target_language": target_language
+    })
 
-    data={"message":"Api utilisateur"}
+    # Vérifiez si la demande a réussi
+    if response.status_code == 200:
+        # Renvoyez la réponse de l'API comme réponse de l'API Flask
+        return response.json()
+    else:
+        return "Erreur: {}".format(response.status_code)
 
-    return jsonify(data)
-
-@app.route("/speech",methods = ['POST'])
-
-def speech():
-    if request.method == 'POST':
-        texte = request.args.get('tx')
-        langue = request.args.get('lg')
-        url = "http://api.voicerss.org/?key=75d6d2b404324de599f13265388ae794&c=WAV&hl="+langue+"&src="+texte
-        payload={}
-        headers = {}
-
-        response = requests.request("GET", url, headers=headers, data=payload)
-
-        print(response.text)
-
-if __name__ == "__main__":
-    from waitress import serve
-    serve(app, host="0.0.0.0", port=8080)
+if __name__ == '__main__':
+    app.run()

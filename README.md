@@ -46,9 +46,7 @@
 <a name="Traduction"></a>
 
 * ### API de traduction
-    Pour l'API de traduction, nous utiliserons [LibreTranslate](https://github.com/LibreTranslate/LibreTranslate). Cette API permet à la fois de detecter la langue d'un texte mais aussi de traduire ce texte. 17 langues sont disponibles.
-
-    Cette API possède une requête HTTP POST pour mettre le texte ainsi que la langue dans laquelle on veut traduire et on récupérer le texte traduit.
+    Pour l'API de traduction, nous utiliserons GoogleTranslate. Pour l'utiliser, il faut d'abord que vous creeiez votre compte et recuperiez une clé API que vous passez dans la requête GET avec le texte à traduire.
 
 <a name="Vocale"></a>
 
